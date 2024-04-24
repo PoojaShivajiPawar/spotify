@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: darkblue;
+  height: 7vh;
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: white;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 25px 200px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 31px;
+    
+
+}
+
+
+
+.brand span {
+  padding: 0 8px;
+  cursor: auto;
+  color: white;
+}
+
+.brand img {
+  height: 30px;
+  width: 30px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.bottom{
+    position: sticky;
+    background-color: darkblue;
+    height: 16vh;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#progressBar{
+    width: 90vw;
+    margin-top:3px;
+    margin-bottom: 6px;
+}
+.icons{
+display: flex;
+align-items: center;
+padding: 0 10px;
+margin: 0 20px;
+}
+
+.icons img{
+    padding: 0 20px;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+.bottom #progressBar:hover{
+    cursor: pointer;
+}
+
+.songItem{
+  display: flex;
+  align-items: center;
+ }
+
+.songName{
+  margin: 0 50px;
+}
+
+
+.songItem img{
+  height: 50px;
+  width: 60px;
+  border-radius: 15px;
+  margin: 0;
+  left: 0;
+}
+.songListPlay{
+  display: flex;
+  align-items: flex-end;
+  padding: 12px;
+  margin: 0 20px;
+  
+
+}
+
+
+
+.songInfo {
+position: absolute;
+left: 2vw;
+display: flex;
+align-items: center;
+color: white;
+padding: 20px;
+margin: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.songInfo img{
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  opacity: 0;
+  transition: opacity-0.4 ease-in;
+}
+
+#masterSongName{
+  position: absolute;
+  color: white;
+  left: 20vw;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+}
